@@ -59,7 +59,6 @@
     <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
     <Compile Include="Assets\Scripts\GameControls.cs" />
     <Compile Include="Assets\Scripts\MovingAndRotatingObjects.cs" />
-    <Compile Include="Assets\Scripts\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\SpawnObjects.cs" />
   </ItemGroup>
   <ItemGroup>
