@@ -17,8 +17,6 @@ public class MovingAndRotatingObjects : MonoBehaviour
     void Update()
     {
         transform.Translate(0, moveSpeed * Time.deltaTime, 0);
-        trasnform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
-
-
+        transform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
     }
 }
