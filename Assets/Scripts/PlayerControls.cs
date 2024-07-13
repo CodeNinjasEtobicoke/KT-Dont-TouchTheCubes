@@ -27,4 +27,9 @@ public class PlayerControls : MonoBehaviour
 
 
     }
+     void OnCollisionEnter(Collision collision)
+    {
+        SceneManager.LoadScene(0);
+        
+    }
 }
